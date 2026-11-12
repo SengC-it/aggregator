@@ -45,6 +45,13 @@
             "name": "v2raydog",
             "push_to": ["free"],
             "subscribe": ["https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/v2ray.txt"]
+        },
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "leidahub-sg",
+            "push_to": ["free"],
+            "subscribe": ["https://leidahub.top/by-country/singapore.txt"]
         }
     ],
     "storage": {
