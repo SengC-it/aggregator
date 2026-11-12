@@ -1,0 +1,65 @@
+{
+    "delay": 5000,
+    "groups": {
+        "free": {
+            "emoji": true,
+            "list_only": true,
+            "targets": {
+                "clash": "free-clash",
+                "v2ray": "free-v2ray"
+            }
+        }
+    },
+    "sites": [
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "leidahub-jp",
+            "push_to": ["free"],
+            "subscribe": ["https://leidahub.top/by-country/japan.txt"]
+        },
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "leidahub-us",
+            "push_to": ["free"],
+            "subscribe": ["https://leidahub.top/by-country/united-states.txt"]
+        },
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "v2rayfree",
+            "push_to": ["free"],
+            "subscribe": ["https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub"]
+        },
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "pawdroid",
+            "push_to": ["free"],
+            "subscribe": ["https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_en"]
+        },
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "v2raydog",
+            "push_to": ["free"],
+            "subscribe": ["https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/v2ray.txt"]
+        }
+    ],
+    "storage": {
+        "engine": "gist",
+        "items": {
+            "free-clash": {
+                "filename": "clash.yaml",
+                "gist_id": "cad04d6c8a18f574d43c0ad67d03da50",
+                "username": "SengC-it"
+            },
+            "free-v2ray": {
+                "filename": "v2ray.txt",
+                "gist_id": "cad04d6c8a18f574d43c0ad67d03da50",
+                "username": "SengC-it"
+            }
+        }
+    }
+}
