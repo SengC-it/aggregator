@@ -52,6 +52,34 @@
             "name": "leidahub-sg",
             "push_to": ["free"],
             "subscribe": ["https://leidahub.top/by-country/singapore.txt"]
+        },
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "leidahub-de",
+            "push_to": ["free"],
+            "subscribe": ["https://leidahub.top/by-country/germany.txt"]
+        },
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "leidahub-kr",
+            "push_to": ["free"],
+            "subscribe": ["https://leidahub.top/by-country/south-korea.txt"]
+        },
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "leidahub-uk",
+            "push_to": ["free"],
+            "subscribe": ["https://leidahub.top/by-country/united-kingdom.txt"]
+        },
+        {
+            "check_alive": true,
+            "enable": true,
+            "name": "leidahub-tw",
+            "push_to": ["free"],
+            "subscribe": ["https://leidahub.top/by-country/taiwan.txt"]
         }
     ],
     "storage": {
